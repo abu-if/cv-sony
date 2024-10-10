@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://manjaro.org/img/bg.svg);
+    background-size: cover; /* Change to cover for a full background */
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: Arial, sans-serif; /* Added a font for better readability */
+    color: #333; /* Changed text color for contrast */
+}
+
+#colspan {
+    background-color: rgba(171, 188, 202, 0.9); /* Added transparency */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    text-align: justify;
+    float: left;
+    padding: 20px; /* Increased padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+}
+
+img {
+    width: 100%; /* Set to 100% for responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.wrap-img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Added margin for spacing */
+}
+
+#header {
+    text-align: center;
+    background-color: rgba(0, 123, 255, 0.7); /* Header background color */
+    color: white; /* White text for contrast */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for header */
+    font-size: 24px; /* Larger font size for emphasis */
+}
